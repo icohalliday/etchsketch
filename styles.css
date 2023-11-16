@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Set a background color for the body */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    gap: 2px; /* Adjust the gap as needed */
+    width: 80vmin; /* Adjust the width as needed */
+    height: 80vmin; /* Adjust the height as needed */
+}
+
+.grid-item {
+    background-color: #3498db; /* Adjust the background color as needed */
+    border: 1px solid #fff; /* Adjust the border color as needed */
+    aspect-ratio: 1/1; /* Maintain a square aspect ratio for each grid item */
+}
